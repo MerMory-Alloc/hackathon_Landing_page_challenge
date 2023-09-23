@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&display=swap');
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('../public/assets/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+         url('../public/assets/fonts/ClashDisplay-Variable.woff') format('woff'),
+         url('../public/assets/fonts/ClashDisplay-Variable.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Unica One';
+    src: url("../public/assets/fonts/UnicaOne-Regular.ttf");
+  }
+  
+
+@layer utilities {
+
+    .btn, .btnReadMoreMobile,.btnReadMore,.link {
+        border-radius: 4px;
+        background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+        display:grid;
+        place-items: center;
+    }
+
+    .btn{
+        padding: 16px 52px;
+    }
+
+    .btnReadMoreMobile{
+        width:96px;
+        height:32px;
+        font-size:12px;
+        padding:0;
+    }
+
+    .btnReadMore{
+        width:172px;
+        height:53px;
+        font-size:16px;
+        padding:0;
+    }
+
+    .secBackground {
+        background: url("../public/assets/images/bagg.svg");
+        background-repeat: no-repeat;
+        background-color: #100B20;
+    }
+
+    .input,.input2 {
+        border-radius: 4px;
+        border: 1px solid #FFF;
+        background: rgba(255, 255, 255, 0.03);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .input {
+        padding: 14px 24px;
+        font-size: 16px;
+    }
+
+    .formBox{
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.03);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .modalBox{
+        border-radius: 5px;
+        border: 1px solid #D434FE;
+        background: rgba(255, 255, 255, 0.01);
+    }
+
+    .checkbox {
+        /* Add if not using autoprefixer */
+        -webkit-appearance: none;
+        appearance: none;
+        /* For iOS < 15 to remove gradient background */
+        background-color: transparent;
+        /* Not removed via appearance */
+        margin: 0;
+        font: inherit;
+        color: #FFF;
+        width: 14px;
+        height: 14px; 
+        border-radius: 2px;
+        border: 1px solid #FFF; 
+        display: grid;
+        place-content: center;
+      }
+
+      .checkbox::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        transform: scale(0);
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 12px 12px #D434FE;
+        transform-origin: bottom left;
+        clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+      }
+      
+      .checkbox:checked::before {
+        transform: scale(1);
+      }
+
+      .navMobBox{
+        border-radius: 8px;
+        border: 0.5px solid rgba(255, 255, 255, 0.04);
+        background: #150E28;
+        backdrop-filter: blur(30px); 
+      }
+
+      .regBtnNavPage{
+        border-image: linear-gradient(#9A39FF, #FF29B9) 10;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 4px; 
+        display:grid;
+        place-items: center;
+        background-color: transparent;
+        padding: 16px 52px;
+        mask:
+     linear-gradient(#ffffff00 0 0) padding-box, 
+     linear-gradient(#ffff 0 0);
+        -webkit-mask:
+     linear-gradient(#ffffff00 0 0) padding-box, 
+     linear-gradient(#ffff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+      }
+
+      .gradientText{
+        background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+    
+ }
+
+ @layer base {
+    html,body {
+        box-sizing: border-box;
+        background-color: #150E28;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Clash Display', sans-serif;
+    }
+    
+ }
+
+ .section_title {
+    @apply text-xl font-bold xl:text-[32px] xl:leading-[130%]
+}
+
+.section_text {
+    @apply text-[13px] xl:text-[14px] leading-[28px] max-w-[335px] xl:max-w-none w-full
+}
+
+.section_text_container {
+    display: flex;
+    @apply  flex-col justify-center items-center text-center gap-2 xl:items-start xl:text-left xl:gap-4
+}
+
+.lightbulb {
+   @apply relative after:content-[''] after:bg-cover after:bg-[url(../public/assets/images/light.png)] xl:after:w-[53px] xl:after:h-[73px] after:inline-block after:absolute xl:after:-right-1/2 xl:after:-top-1/2 after:w-[18px] after:h-[26px] after:-right-2 after:-top-4
+}
+
+.llined::after{
+    @apply xl:w-[4px] h-[100%] w-[2px] right-[-20%] bottom-0 xl:right-[-6%] xl:bottom-0 2xl:right-[-5%] ;
+
+    background-color: #D434FE;
+    position: absolute;
+    content: "";
+}
+
+.blined::before{
+    @apply w-[100%] h-[2px] xl:h-[4px] left-[-1px] bottom-[-45%] xl:left-0 xl:-bottom-[12%] ;
+    background-color: #D434FE;
+    position: absolute;
+    content: "";
+}
+
+  
+
+
+
+
+
+

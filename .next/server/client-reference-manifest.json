@@ -1,0 +1,717 @@
+{
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/la.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/la.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/lp.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/lp.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/ww.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/ww.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/ws.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/ws.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/pb.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/pb.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/vp.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/vp.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/questning.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/questning.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/qmarkB.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/qmarkB.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/qmarkS.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/qmarkS.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/chain.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/chain.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/bom.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/bom.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/manGlass.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/manGlass.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/glob.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/glob.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/line.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/line.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/web.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/web.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/phone.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/phone.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/location.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/location.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/insta.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/insta.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/x.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/x.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/face.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/face.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/linkedin.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/linkedin.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/ops.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/ops.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/secur.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/secur.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/shield.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/shield.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/list.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/list.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/idea.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/idea.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/swirl.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/swirl.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/prize.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/prize.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/medal1.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/medal1.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/medal2.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/medal2.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/medal3.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/medal3.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/images/women.png": {
+      "*": {
+        "id": "(sc_client)/./public/assets/images/women.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/NavBar/MobNav.jsx": {
+      "*": {
+        "id": "(sc_client)/./components/NavBar/MobNav.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/styles/globals.css": {
+      "id": "(app-client)/./styles/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/la.png": {
+      "id": "(app-client)/./public/assets/images/la.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/lp.png": {
+      "id": "(app-client)/./public/assets/images/lp.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/ww.png": {
+      "id": "(app-client)/./public/assets/images/ww.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/ws.png": {
+      "id": "(app-client)/./public/assets/images/ws.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/pb.png": {
+      "id": "(app-client)/./public/assets/images/pb.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/vp.png": {
+      "id": "(app-client)/./public/assets/images/vp.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/questning.png": {
+      "id": "(app-client)/./public/assets/images/questning.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/qmarkB.svg": {
+      "id": "(app-client)/./public/assets/images/qmarkB.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/qmarkS.svg": {
+      "id": "(app-client)/./public/assets/images/qmarkS.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/chain.png": {
+      "id": "(app-client)/./public/assets/images/chain.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/bom.png": {
+      "id": "(app-client)/./public/assets/images/bom.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/manGlass.png": {
+      "id": "(app-client)/./public/assets/images/manGlass.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/glob.png": {
+      "id": "(app-client)/./public/assets/images/glob.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/line.svg": {
+      "id": "(app-client)/./public/assets/images/line.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/web.png": {
+      "id": "(app-client)/./public/assets/images/web.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/phone.svg": {
+      "id": "(app-client)/./public/assets/images/phone.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/location.svg": {
+      "id": "(app-client)/./public/assets/images/location.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/insta.svg": {
+      "id": "(app-client)/./public/assets/images/insta.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/x.svg": {
+      "id": "(app-client)/./public/assets/images/x.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/face.svg": {
+      "id": "(app-client)/./public/assets/images/face.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/linkedin.svg": {
+      "id": "(app-client)/./public/assets/images/linkedin.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/ops.png": {
+      "id": "(app-client)/./public/assets/images/ops.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/secur.png": {
+      "id": "(app-client)/./public/assets/images/secur.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/shield.svg": {
+      "id": "(app-client)/./public/assets/images/shield.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/list.svg": {
+      "id": "(app-client)/./public/assets/images/list.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/idea.png": {
+      "id": "(app-client)/./public/assets/images/idea.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/swirl.png": {
+      "id": "(app-client)/./public/assets/images/swirl.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/prize.png": {
+      "id": "(app-client)/./public/assets/images/prize.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/medal1.png": {
+      "id": "(app-client)/./public/assets/images/medal1.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/medal2.png": {
+      "id": "(app-client)/./public/assets/images/medal2.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/medal3.png": {
+      "id": "(app-client)/./public/assets/images/medal3.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/public/assets/images/women.png": {
+      "id": "(app-client)/./public/assets/images/women.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/mbh/Desktop/hackathon/my-app/components/NavBar/MobNav.jsx": {
+      "id": "(app-client)/./components/NavBar/MobNav.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/home/mbh/Desktop/hackathon/my-app/app/layout": [
+      "static/css/app/layout.css"
+    ],
+    "/home/mbh/Desktop/hackathon/my-app/app/page": []
+  }
+}
